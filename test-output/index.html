@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-XX系统">
+              <span class="suite-name border-passed">XX系统</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-XX系统">
+                    <span>E:\code\eclipse\auto_api_v11_practice\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-XX系统">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-XX系统">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-XX系统">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-XX系统">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-XX系统">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-XX系统">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-XX系统" class="hide-methods passed suite-XX系统"> (hide)</a> <!-- hide-methods passed suite-XX系统 -->
+                      <a href="#" panel-name="suite-XX系统" class="show-methods passed suite-XX系统"> (show)</a> <!-- show-methods passed suite-XX系统 -->
+                    </span>
+                    <div class="method-list-content passed suite-XX系统">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.LoginCase" hash-for-method="test(7, 2, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;&quot;}, null)">test(7, 2, {"mobilephone":"18813989555","pwd":""}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.LoginCase" hash-for-method="test(9, 2, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">test(9, 2, {"mobilephone":"18813989003","pwd":"123456"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(16, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;测试文字&quot;}, null)">test(16, 3, {"mobilephone":"18813989555","amount":"测试文字"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.LoginCase" hash-for-method="test(11, 2, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">test(11, 2, {"mobilephone":"18813989555","pwd":"123456"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(20, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;10000&quot;}, [
+  {
+    &quot;no&quot;:&quot;1&quot;,
+    &quot;sql&quot;:&quot;select leaveam...)">test(20, 3, {"mobilephone":"18813989555","amount":"10000"}, [
+  {
+    "no":"1",
+    "sql":"select leaveam...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(14, 3, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;amount&quot;:&quot;10000&quot;}, null)">test(14, 3, {"mobilephone":"190","amount":"10000"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.RegisterCase" hash-for-method="test(2, 1, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">test(2, 1, {"mobilephone":"","pwd":"123456"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(17, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;-1&quot;}, null)">test(17, 3, {"mobilephone":"18813989555","amount":"-1"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.LoginCase" hash-for-method="test(10, 2, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;1234567&quot;}, null)">test(10, 2, {"mobilephone":"18813989555","pwd":"1234567"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.RegisterCase" hash-for-method="test(6, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">test(6, 1, {"mobilephone":"18813989555","pwd":"123456"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.RegisterCase" hash-for-method="test(1, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;&quot;}, null)">test(1, 1, {"mobilephone":"18813989555","pwd":""}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(12, 3, {&quot;mobilephone&quot;:&quot;&quot;,&quot;amount&quot;:&quot;10000&quot;}, null)">test(12, 3, {"mobilephone":"","amount":"10000"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(13, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;&quot;}, null)">test(13, 3, {"mobilephone":"18813989555","amount":""}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.RegisterCase" hash-for-method="test(3, 1, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">test(3, 1, {"mobilephone":"190","pwd":"123456"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.LoginCase" hash-for-method="test(8, 2, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">test(8, 2, {"mobilephone":"","pwd":"123456"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.RegisterCase" hash-for-method="test(4, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;12345&quot;}, null)">test(4, 1, {"mobilephone":"18813989555","pwd":"12345"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(18, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;510000&quot;}, null)">test(18, 3, {"mobilephone":"18813989555","amount":"510000"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.RegisterCase" hash-for-method="test(5, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;123456&quot;}, [
+  {
+   &quot;no&quot;:&quot;1&quot;,
+   &quot;sql&quot;:&quot;select count(*) as ...)">test(5, 1, {"mobilephone":"18813989555","pwd":"123456"}, [
+  {
+   "no":"1",
+   "sql":"select count(*) as ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(15, 3, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;amount&quot;:&quot;10000&quot;}, null)">test(15, 3, {"mobilephone":"18813989003","amount":"10000"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-XX系统" title="com.lemon.cases.ReChargeCase" hash-for-method="test(19, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;10000.001&quot;}, null)">test(19, 3, {"mobilephone":"18813989555","amount":"10000.001"}, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-XX系统 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-XX系统" class="panel XX系统">
+          <div class="suite-XX系统-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.cases.LoginCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(7, 2, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;&quot;}, null)">
+                  </a> <!-- test(7, 2, {"mobilephone":"18813989555","pwd":""}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(7, 2, {"mobilephone":"18813989555","pwd":""}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(9, 2, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">
+                  </a> <!-- test(9, 2, {"mobilephone":"18813989003","pwd":"123456"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(9, 2, {"mobilephone":"18813989003","pwd":"123456"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(11, 2, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">
+                  </a> <!-- test(11, 2, {"mobilephone":"18813989555","pwd":"123456"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(11, 2, {"mobilephone":"18813989555","pwd":"123456"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(10, 2, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;1234567&quot;}, null)">
+                  </a> <!-- test(10, 2, {"mobilephone":"18813989555","pwd":"1234567"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(10, 2, {"mobilephone":"18813989555","pwd":"1234567"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(8, 2, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">
+                  </a> <!-- test(8, 2, {"mobilephone":"","pwd":"123456"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(8, 2, {"mobilephone":"","pwd":"123456"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XX系统-class-passed -->
+          <div class="suite-XX系统-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.cases.RegisterCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(2, 1, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">
+                  </a> <!-- test(2, 1, {"mobilephone":"","pwd":"123456"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(2, 1, {"mobilephone":"","pwd":"123456"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(6, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">
+                  </a> <!-- test(6, 1, {"mobilephone":"18813989555","pwd":"123456"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(6, 1, {"mobilephone":"18813989555","pwd":"123456"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(1, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;&quot;}, null)">
+                  </a> <!-- test(1, 1, {"mobilephone":"18813989555","pwd":""}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(1, 1, {"mobilephone":"18813989555","pwd":""}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(3, 1, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;pwd&quot;:&quot;123456&quot;}, null)">
+                  </a> <!-- test(3, 1, {"mobilephone":"190","pwd":"123456"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(3, 1, {"mobilephone":"190","pwd":"123456"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(4, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;12345&quot;}, null)">
+                  </a> <!-- test(4, 1, {"mobilephone":"18813989555","pwd":"12345"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(4, 1, {"mobilephone":"18813989555","pwd":"12345"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(5, 1, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;pwd&quot;:&quot;123456&quot;}, [
+  {
+   &quot;no&quot;:&quot;1&quot;,
+   &quot;sql&quot;:&quot;select count(*) as ...)">
+                  </a> <!-- test(5, 1, {"mobilephone":"18813989555","pwd":"123456"}, [
+  {
+   "no":"1",
+   "sql":"select count(*) as ...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(5, 1, {"mobilephone":"18813989555","pwd":"123456"}, [
+  {
+   "no":"1",
+   "sql":"select count(*) as totalNum from member where mobilephone='18813989555'"
+   }
+])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XX系统-class-passed -->
+          <div class="suite-XX系统-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.lemon.cases.ReChargeCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(16, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;测试文字&quot;}, null)">
+                  </a> <!-- test(16, 3, {"mobilephone":"18813989555","amount":"测试文字"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(16, 3, {"mobilephone":"18813989555","amount":"测试文字"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(20, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;10000&quot;}, [
+  {
+    &quot;no&quot;:&quot;1&quot;,
+    &quot;sql&quot;:&quot;select leaveam...)">
+                  </a> <!-- test(20, 3, {"mobilephone":"18813989555","amount":"10000"}, [
+  {
+    "no":"1",
+    "sql":"select leaveam...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(20, 3, {"mobilephone":"18813989555","amount":"10000"}, [
+  {
+    "no":"1",
+    "sql":"select leaveamount from member where mobilephone='18813989555'"},
+  {
+    "no":"2",
+    "sql":"select count(*) as totalNum from financelog where IncomeMemberId = (select id from member where mobilephone='18813989555')"
+   }
+])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(14, 3, {&quot;mobilephone&quot;:&quot;190&quot;,&quot;amount&quot;:&quot;10000&quot;}, null)">
+                  </a> <!-- test(14, 3, {"mobilephone":"190","amount":"10000"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(14, 3, {"mobilephone":"190","amount":"10000"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(17, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;-1&quot;}, null)">
+                  </a> <!-- test(17, 3, {"mobilephone":"18813989555","amount":"-1"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(17, 3, {"mobilephone":"18813989555","amount":"-1"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(12, 3, {&quot;mobilephone&quot;:&quot;&quot;,&quot;amount&quot;:&quot;10000&quot;}, null)">
+                  </a> <!-- test(12, 3, {"mobilephone":"","amount":"10000"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(12, 3, {"mobilephone":"","amount":"10000"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(13, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;&quot;}, null)">
+                  </a> <!-- test(13, 3, {"mobilephone":"18813989555","amount":""}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(13, 3, {"mobilephone":"18813989555","amount":""}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(18, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;510000&quot;}, null)">
+                  </a> <!-- test(18, 3, {"mobilephone":"18813989555","amount":"510000"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(18, 3, {"mobilephone":"18813989555","amount":"510000"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(15, 3, {&quot;mobilephone&quot;:&quot;18813989003&quot;,&quot;amount&quot;:&quot;10000&quot;}, null)">
+                  </a> <!-- test(15, 3, {"mobilephone":"18813989003","amount":"10000"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(15, 3, {"mobilephone":"18813989003","amount":"10000"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(19, 3, {&quot;mobilephone&quot;:&quot;18813989555&quot;,&quot;amount&quot;:&quot;10000.001&quot;}, null)">
+                  </a> <!-- test(19, 3, {"mobilephone":"18813989555","amount":"10000.001"}, null) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(19, 3, {"mobilephone":"18813989555","amount":"10000.001"}, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-XX系统-class-passed -->
+        </div> <!-- panel XX系统 -->
+        <div panel-name="test-xml-XX系统" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\code\eclipse\auto_api_v11_practice\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;XX系统&quot;&gt;
+  &lt;test name=&quot;XX&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.lemon.cases.RegisterCase&quot;/&gt;
+      &lt;class name=&quot;com.lemon.cases.LoginCase&quot;/&gt;
+      &lt;class name=&quot;com.lemon.cases.ReChargeCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- XX --&gt;
+&lt;/suite&gt; &lt;!-- XX系统 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-XX系统" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for XX系统</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">XX (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-XX系统" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for XX系统</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-XX系统" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for XX系统</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_XX系统');
+function tableData_XX系统() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'com.lemon.cases.RegisterCase')
+data.setCell(0, 3, 2417);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(1, 3, 1346);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'com.lemon.cases.RegisterCase')
+data.setCell(2, 3, 886);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(3, 3, 165);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'com.lemon.cases.LoginCase')
+data.setCell(4, 3, 107);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'com.lemon.cases.LoginCase')
+data.setCell(5, 3, 99);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'com.lemon.cases.LoginCase')
+data.setCell(6, 3, 96);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'com.lemon.cases.RegisterCase')
+data.setCell(7, 3, 92);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(8, 3, 81);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(9, 3, 80);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test')
+data.setCell(10, 2, 'com.lemon.cases.LoginCase')
+data.setCell(10, 3, 77);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test')
+data.setCell(11, 2, 'com.lemon.cases.RegisterCase')
+data.setCell(11, 3, 76);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test')
+data.setCell(12, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(12, 3, 76);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test')
+data.setCell(13, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(13, 3, 75);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test')
+data.setCell(14, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(14, 3, 75);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test')
+data.setCell(15, 2, 'com.lemon.cases.RegisterCase')
+data.setCell(15, 3, 75);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test')
+data.setCell(16, 2, 'com.lemon.cases.LoginCase')
+data.setCell(16, 3, 75);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test')
+data.setCell(17, 2, 'com.lemon.cases.RegisterCase')
+data.setCell(17, 3, 75);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test')
+data.setCell(18, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(18, 3, 75);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test')
+data.setCell(19, 2, 'com.lemon.cases.ReChargeCase')
+data.setCell(19, 3, 74);
+window.suiteTableData['XX系统']= { tableData: data, tableDiv: 'times-div-XX系统'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-XX系统">
+              </div> <!-- times-div-XX系统 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-XX系统" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for XX系统</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-XX系统" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.lemon.cases.RegisterCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">batchWriteBack</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.lemon.cases.ReChargeCase</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">batchWriteBack</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-XX系统" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.RegisterCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(1, 1, {"mobilephone":"18813989555","pwd":""}, null)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(2, 1, {"mobilephone":"","pwd":"123456"}, null)</span>
+                <span class="method-start">2417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(3, 1, {"mobilephone":"190","pwd":"123456"}, null)</span>
+                <span class="method-start">2494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(4, 1, {"mobilephone":"18813989555","pwd":"12345"}, null)</span>
+                <span class="method-start">2569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(5, 1, {"mobilephone":"18813989555","pwd":"123456"}, [
+  {
+   "no":"1",
+   "sql":"select count(*) as ...)</span>
+                <span class="method-start">2644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(6, 1, {"mobilephone":"18813989555","pwd":"123456"}, null)</span>
+                <span class="method-start">3530 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.LoginCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(7, 2, {"mobilephone":"18813989555","pwd":""}, null)</span>
+                <span class="method-start">3624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(8, 2, {"mobilephone":"","pwd":"123456"}, null)</span>
+                <span class="method-start">3702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(9, 2, {"mobilephone":"18813989003","pwd":"123456"}, null)</span>
+                <span class="method-start">3777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(10, 2, {"mobilephone":"18813989555","pwd":"1234567"}, null)</span>
+                <span class="method-start">3877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(11, 2, {"mobilephone":"18813989555","pwd":"123456"}, null)</span>
+                <span class="method-start">3974 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.ReChargeCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test(12, 3, {"mobilephone":"","amount":"10000"}, null)</span>
+                <span class="method-start">4084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(13, 3, {"mobilephone":"18813989555","amount":""}, null)</span>
+                <span class="method-start">4160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(14, 3, {"mobilephone":"190","amount":"10000"}, null)</span>
+                <span class="method-start">4241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(15, 3, {"mobilephone":"18813989003","amount":"10000"}, null)</span>
+                <span class="method-start">4316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(16, 3, {"mobilephone":"18813989555","amount":"测试文字"}, null)</span>
+                <span class="method-start">4481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(17, 3, {"mobilephone":"18813989555","amount":"-1"}, null)</span>
+                <span class="method-start">4557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(18, 3, {"mobilephone":"18813989555","amount":"510000"}, null)</span>
+                <span class="method-start">4633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(19, 3, {"mobilephone":"18813989555","amount":"10000.001"}, null)</span>
+                <span class="method-start">4709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">test(20, 3, {"mobilephone":"18813989555","amount":"10000"}, [
+  {
+    "no":"1",
+    "sql":"select leaveam...)</span>
+                <span class="method-start">4790 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.lemon.cases.LoginCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">batchWriteBack</span>
+                <span class="method-start">6151 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XX系统]">
+  <test name="XX(failed)">
+    <classes>
+      <class name="com.lemon.cases.ReChargeCase">
+        <methods>
+          <include name="test" invocation-numbers="8"/>
+        </methods>
+      </class> <!-- com.lemon.cases.ReChargeCase -->
+    </classes>
+  </test> <!-- XX(failed) -->
+</suite> <!-- Failed suite [XX系统] -->
