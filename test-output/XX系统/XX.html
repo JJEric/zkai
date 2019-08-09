@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 08 14:57:46 CST 2019</td>
+<td>Started on:</td><td>Thu Aug 08 19:55:48 CST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6646 ms)</td>
+<tr><td>Total time:</td><td>7 seconds (7010 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,62 +75,62 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 1, 1, {"mobilephone":"18813989555","pwd":""}, null</td>
-<td></td>
-<td>2</td>
-<td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
-<tr>
-<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 2, 1, {"mobilephone":"","pwd":"123456"}, null</td>
+<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 1, 1, {"mobilephone":"${toBeRegisterMobilephone}","pwd":""}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
 <tr>
-<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 3, 1, {"mobilephone":"190","pwd":"123456"}, null</td>
+<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 2, 1, {"mobilephone":"","pwd":"${toBeRegisterPassword}"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
 <tr>
-<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 4, 1, {"mobilephone":"18813989555","pwd":"12345"}, null</td>
+<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 3, 1, {"mobilephone":"190","pwd":"${toBeRegisterPassword}"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
 <tr>
-<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 5, 1, {"mobilephone":"18813989555","pwd":"123456"}, [
+<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 4, 1, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"12345"}, null</td>
+<td></td>
+<td>0</td>
+<td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
+<tr>
+<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 5, 1, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}, [
   {
    "no":"1",
-   "sql":"select count(*) as totalNum from member where mobilephone='18813989555'"
+   "sql":"select count(*) as totalNum from member where mobilephone='${toBeRegisterMobilephone}'"
    }
 ]</td>
 <td></td>
+<td>1</td>
+<td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
+<tr>
+<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 6, 1, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}, null</td>
+<td></td>
 <td>0</td>
 <td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
 <tr>
-<td title='com.lemon.cases.RegisterCase.test()'><b>test</b><br>Test class: com.lemon.cases.RegisterCase<br>Parameters: 6, 1, {"mobilephone":"18813989555","pwd":"123456"}, null</td>
-<td></td>
-<td>0</td>
-<td>com.lemon.cases.RegisterCase@63d4e2ba</td></tr>
-<tr>
-<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 7, 2, {"mobilephone":"18813989555","pwd":""}, null</td>
+<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 7, 2, {"mobilephone":"${toBeRegisterMobilephone}","pwd":""}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.LoginCase@77f03bb1</td></tr>
 <tr>
-<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 8, 2, {"mobilephone":"","pwd":"123456"}, null</td>
+<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 8, 2, {"mobilephone":"","pwd":"${toBeRegisterPassword}"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.LoginCase@77f03bb1</td></tr>
 <tr>
-<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 9, 2, {"mobilephone":"18813989003","pwd":"123456"}, null</td>
+<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 9, 2, {"mobilephone":"18813989003","pwd":"${toBeRegisterPassword}"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.LoginCase@77f03bb1</td></tr>
 <tr>
-<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 10, 2, {"mobilephone":"18813989555","pwd":"1234567"}, null</td>
+<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 10, 2, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.LoginCase@77f03bb1</td></tr>
 <tr>
-<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 11, 2, {"mobilephone":"18813989555","pwd":"123456"}, null</td>
+<td title='com.lemon.cases.LoginCase.test()'><b>test</b><br>Test class: com.lemon.cases.LoginCase<br>Parameters: 11, 2, {"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.LoginCase@77f03bb1</td></tr>
@@ -140,7 +140,7 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
 <tr>
-<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 13, 3, {"mobilephone":"18813989555","amount":""}, null</td>
+<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 13, 3, {"mobilephone":"${toBeRegisterMobilephone}","amount":""}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
@@ -155,37 +155,37 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
 <tr>
-<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 16, 3, {"mobilephone":"18813989555","amount":"测试文字"}, null</td>
+<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 16, 3, {"mobilephone":"${toBeRegisterMobilephone}","amount":"测试文字"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
 <tr>
-<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 17, 3, {"mobilephone":"18813989555","amount":"-1"}, null</td>
+<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 17, 3, {"mobilephone":"${toBeRegisterMobilephone}","amount":"-1"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
 <tr>
-<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 18, 3, {"mobilephone":"18813989555","amount":"510000"}, null</td>
+<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 18, 3, {"mobilephone":"${toBeRegisterMobilephone}","amount":"510000"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
 <tr>
-<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 19, 3, {"mobilephone":"18813989555","amount":"10000.001"}, null</td>
+<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 19, 3, {"mobilephone":"${toBeRegisterMobilephone}","amount":"10000.001"}, null</td>
 <td></td>
 <td>0</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
 <tr>
-<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 20, 3, {"mobilephone":"18813989555","amount":"10000"}, [
+<td title='com.lemon.cases.ReChargeCase.test()'><b>test</b><br>Test class: com.lemon.cases.ReChargeCase<br>Parameters: 20, 3, {"mobilephone":"${toBeRegisterMobilephone}","amount":"10000"}, [
   {
     "no":"1",
-    "sql":"select leaveamount from member where mobilephone='18813989555'"},
+    "sql":"select leaveamount from member where mobilephone='${toBeRegisterMobilephone}'"},
   {
     "no":"2",
-    "sql":"select count(*) as totalNum from financelog where IncomeMemberId = (select id from member where mobilephone='18813989555')"
+    "sql":"select count(*) as totalNum from financelog where IncomeMemberId = (select id from member where mobilephone='${toBeRegisterMobilephone}')"
    }
 ]</td>
 <td></td>
-<td>1</td>
+<td>3</td>
 <td>com.lemon.cases.ReChargeCase@7bb11784</td></tr>
 </table><p>
 </body>

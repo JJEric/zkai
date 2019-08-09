@@ -3,9 +3,20 @@
 <suite name="Failed suite [XX系统]">
   <test name="XX(failed)">
     <classes>
+      <class name="com.lemon.cases.LoginCase">
+        <methods>
+          <include name="batchWriteBack"/>
+          <include name="test" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.lemon.cases.LoginCase -->
+      <class name="com.lemon.cases.RegisterCase">
+        <methods>
+          <include name="test" invocation-numbers="0 1 2 3 5"/>
+        </methods>
+      </class> <!-- com.lemon.cases.RegisterCase -->
       <class name="com.lemon.cases.ReChargeCase">
         <methods>
-          <include name="test" invocation-numbers="8"/>
+          <include name="test" invocation-numbers="0 1 2 3 4 5 6 7"/>
         </methods>
       </class> <!-- com.lemon.cases.ReChargeCase -->
     </classes>

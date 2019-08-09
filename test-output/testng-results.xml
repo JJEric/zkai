@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="XX系统" duration-ms="6646" started-at="2019-08-08T06:57:46Z" finished-at="2019-08-08T06:57:53Z">
+  <suite name="XX系统" duration-ms="7010" started-at="2019-08-08T11:55:48Z" finished-at="2019-08-08T11:55:56Z">
     <groups>
     </groups>
-    <test name="XX" duration-ms="6646" started-at="2019-08-08T06:57:46Z" finished-at="2019-08-08T06:57:53Z">
+    <test name="XX" duration-ms="7010" started-at="2019-08-08T11:55:48Z" finished-at="2019-08-08T11:55:56Z">
       <class name="com.lemon.cases.LoginCase">
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="77" started-at="2019-08-08T14:57:50Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="100" started-at="2019-08-08T19:55:51Z" data-provider="datas" finished-at="2019-08-08T19:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -21,7 +21,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","pwd":""}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":""}]]>
               </value>
             </param>
             <param index="3">
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="75" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="98" started-at="2019-08-08T19:55:51Z" data-provider="datas" finished-at="2019-08-08T19:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"","pwd":"123456"}]]>
+                <![CDATA[{"mobilephone":"","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="99" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="120" started-at="2019-08-08T19:55:51Z" data-provider="datas" finished-at="2019-08-08T19:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989003","pwd":"123456"}]]>
+                <![CDATA[{"mobilephone":"18813989003","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="96" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="100" started-at="2019-08-08T19:55:51Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","pwd":"1234567"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -103,7 +103,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="107" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="test" duration-ms="109" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","pwd":"123456"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -127,13 +127,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="batchWriteBack()[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="batchWriteBack" is-config="true" duration-ms="88" started-at="2019-08-08T14:57:53Z" finished-at="2019-08-08T14:57:53Z">
+        <test-method status="PASS" signature="batchWriteBack()[pri:0, instance:com.lemon.cases.LoginCase@77f03bb1]" name="batchWriteBack" is-config="true" duration-ms="103" started-at="2019-08-08T19:55:56Z" finished-at="2019-08-08T19:55:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- batchWriteBack -->
       </class> <!-- com.lemon.cases.LoginCase -->
       <class name="com.lemon.cases.RegisterCase">
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="2417" started-at="2019-08-08T14:57:47Z" data-provider="datas" finished-at="2019-08-08T14:57:49Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="458" started-at="2019-08-08T19:55:49Z" data-provider="datas" finished-at="2019-08-08T19:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","pwd":""}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":""}]]>
               </value>
             </param>
             <param index="3">
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="76" started-at="2019-08-08T14:57:49Z" data-provider="datas" finished-at="2019-08-08T14:57:49Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="95" started-at="2019-08-08T19:55:50Z" data-provider="datas" finished-at="2019-08-08T19:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -171,7 +171,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"","pwd":"123456"}]]>
+                <![CDATA[{"mobilephone":"","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="75" started-at="2019-08-08T14:57:49Z" data-provider="datas" finished-at="2019-08-08T14:57:49Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="96" started-at="2019-08-08T19:55:50Z" data-provider="datas" finished-at="2019-08-08T19:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -195,7 +195,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"190","pwd":"123456"}]]>
+                <![CDATA[{"mobilephone":"190","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -205,7 +205,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="75" started-at="2019-08-08T14:57:49Z" data-provider="datas" finished-at="2019-08-08T14:57:49Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="97" started-at="2019-08-08T19:55:50Z" data-provider="datas" finished-at="2019-08-08T19:55:50Z">
           <params>
             <param index="0">
               <value>
@@ -219,7 +219,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","pwd":"12345"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"12345"}]]>
               </value>
             </param>
             <param index="3">
@@ -229,7 +229,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="886" started-at="2019-08-08T14:57:49Z" data-provider="datas" finished-at="2019-08-08T14:57:50Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="1195" started-at="2019-08-08T19:55:50Z" data-provider="datas" finished-at="2019-08-08T19:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -243,7 +243,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","pwd":"123456"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -251,7 +251,7 @@
                 <![CDATA[[
   {
    "no":"1",
-   "sql":"select count(*) as totalNum from member where mobilephone='18813989555'"
+   "sql":"select count(*) as totalNum from member where mobilephone='${toBeRegisterMobilephone}'"
    }
 ]]]>
               </value>
@@ -260,7 +260,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="92" started-at="2019-08-08T14:57:50Z" data-provider="datas" finished-at="2019-08-08T14:57:50Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.RegisterCase@63d4e2ba]" name="test" duration-ms="96" started-at="2019-08-08T19:55:51Z" data-provider="datas" finished-at="2019-08-08T19:55:51Z">
           <params>
             <param index="0">
               <value>
@@ -274,7 +274,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","pwd":"123456"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","pwd":"${toBeRegisterPassword}"}]]>
               </value>
             </param>
             <param index="3">
@@ -286,7 +286,7 @@
         </test-method> <!-- test -->
       </class> <!-- com.lemon.cases.RegisterCase -->
       <class name="com.lemon.cases.ReChargeCase">
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="75" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="95" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -310,7 +310,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="80" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="81" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -324,7 +324,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","amount":""}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":""}]]>
               </value>
             </param>
             <param index="3">
@@ -334,7 +334,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="74" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="83" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -358,7 +358,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="165" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="178" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -382,7 +382,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="75" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="88" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -396,7 +396,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","amount":"测试文字"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"测试文字"}]]>
               </value>
             </param>
             <param index="3">
@@ -406,7 +406,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="76" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:51Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="85" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -420,7 +420,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","amount":"-1"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"-1"}]]>
               </value>
             </param>
             <param index="3">
@@ -430,7 +430,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="75" started-at="2019-08-08T14:57:51Z" data-provider="datas" finished-at="2019-08-08T14:57:52Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="101" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -444,7 +444,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","amount":"510000"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"510000"}]]>
               </value>
             </param>
             <param index="3">
@@ -454,7 +454,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="81" started-at="2019-08-08T14:57:52Z" data-provider="datas" finished-at="2019-08-08T14:57:52Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="81" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:52Z">
           <params>
             <param index="0">
               <value>
@@ -468,7 +468,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","amount":"10000.001"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"10000.001"}]]>
               </value>
             </param>
             <param index="3">
@@ -478,7 +478,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="1346" started-at="2019-08-08T14:57:52Z" data-provider="datas" finished-at="2019-08-08T14:57:53Z">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.cases.ReChargeCase@7bb11784]" name="test" duration-ms="3004" started-at="2019-08-08T19:55:52Z" data-provider="datas" finished-at="2019-08-08T19:55:55Z">
           <params>
             <param index="0">
               <value>
@@ -492,7 +492,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[{"mobilephone":"18813989555","amount":"10000"}]]>
+                <![CDATA[{"mobilephone":"${toBeRegisterMobilephone}","amount":"10000"}]]>
               </value>
             </param>
             <param index="3">
@@ -500,10 +500,10 @@
                 <![CDATA[[
   {
     "no":"1",
-    "sql":"select leaveamount from member where mobilephone='18813989555'"},
+    "sql":"select leaveamount from member where mobilephone='${toBeRegisterMobilephone}'"},
   {
     "no":"2",
-    "sql":"select count(*) as totalNum from financelog where IncomeMemberId = (select id from member where mobilephone='18813989555')"
+    "sql":"select count(*) as totalNum from financelog where IncomeMemberId = (select id from member where mobilephone='${toBeRegisterMobilephone}')"
    }
 ]]]>
               </value>
